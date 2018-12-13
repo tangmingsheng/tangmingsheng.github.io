@@ -86,14 +86,17 @@
 
 
 
+<meta name="description" content="一、软件下载&amp;amp;安装1.git配置git主页  git下载  github下载 下载安装 git 下载安装并配置 github 2.环境变量右击此电脑 → 属性 → 高级系统设置 → 环境变量 → 在系统变量中找到 path，添加：  安装目录\cmd\git.exe。如：C:\Program Files\Git\cmd\git.exe  安装目录\bin。如：C:\Program File">
 <meta property="og:type" content="article">
-<meta property="og:title" content="Luna">
+<meta property="og:title" content="Hexo&amp;git配置">
 <meta property="og:url" content="http://yoursite.com/2018/11/23/Hexo&git配置/index.html">
 <meta property="og:site_name" content="Luna">
+<meta property="og:description" content="一、软件下载&amp;amp;安装1.git配置git主页  git下载  github下载 下载安装 git 下载安装并配置 github 2.环境变量右击此电脑 → 属性 → 高级系统设置 → 环境变量 → 在系统变量中找到 path，添加：  安装目录\cmd\git.exe。如：C:\Program Files\Git\cmd\git.exe  安装目录\bin。如：C:\Program File">
 <meta property="og:locale" content="zh-Hans">
-<meta property="og:updated_time" content="2018-12-13T19:52:21.130Z">
+<meta property="og:updated_time" content="2018-12-13T19:58:46.163Z">
 <meta name="twitter:card" content="summary">
-<meta name="twitter:title" content="Luna">
+<meta name="twitter:title" content="Hexo&amp;git配置">
+<meta name="twitter:description" content="一、软件下载&amp;amp;安装1.git配置git主页  git下载  github下载 下载安装 git 下载安装并配置 github 2.环境变量右击此电脑 → 属性 → 高级系统设置 → 环境变量 → 在系统变量中找到 path，添加：  安装目录\cmd\git.exe。如：C:\Program Files\Git\cmd\git.exe  安装目录\bin。如：C:\Program File">
 
 
 
@@ -129,7 +132,7 @@
 
 
 
-  <title> | Luna</title>
+  <title>Hexo&git配置 | Luna</title>
   
 
 
@@ -295,7 +298,7 @@
 
         
         
-          <h1 class="post-title" itemprop="name headline"></h1>
+          <h1 class="post-title" itemprop="name headline">Hexo&git配置</h1>
         
 
         <div class="post-meta">
@@ -339,7 +342,7 @@
                   <span class="post-meta-item-text">字数统计&#58;</span>
                 
                 <span title="字数统计">
-                  0
+                  1.2k
                 </span>
               
 
@@ -355,7 +358,7 @@
                   <span class="post-meta-item-text">阅读时长 &asymp;</span>
                 
                 <span title="阅读时长">
-                  1
+                  4
                 </span>
               
             </div>
@@ -376,7 +379,79 @@
       
 
       
-        
+        <h1 id="一、软件下载-amp-安装"><a href="#一、软件下载-amp-安装" class="headerlink" title="一、软件下载&amp;安装"></a>一、软件下载&amp;安装</h1><h2 id="1-git配置"><a href="#1-git配置" class="headerlink" title="1.git配置"></a>1.git配置</h2><p><a href="https://github.com/" target="_blank" rel="noopener">git主页</a>  <a href="https://git-scm.com/download/win" target="_blank" rel="noopener">git下载</a>  <a href="https://desktop.github.com" target="_blank" rel="noopener">github下载</a></p>
+<p>下载安装 git</p>
+<p>下载安装并配置 github</p>
+<h2 id="2-环境变量"><a href="#2-环境变量" class="headerlink" title="2.环境变量"></a>2.环境变量</h2><p>右击此电脑 → 属性 → 高级系统设置 → 环境变量 → 在系统变量中找到 path，添加：</p>
+<ol>
+<li><p>安装目录<code>\cmd\git.exe</code>。如：<code>C:\Program Files\Git\cmd\git.exe</code></p>
+</li>
+<li><p>安装目录<code>\bin</code>。如：<code>C:\Program Files\Git\bin</code></p>
+</li>
+<li><p>安装目录<code>\usr\bin</code>。如：<code>C:\Program Files\Git\usr\bin</code></p>
+</li>
+</ol>
+<p>使用 SSH 连接 GitHub</p>
+<p>默认情况下，用户的 SSH 密钥存储在 <code>~/.ssh</code> 目录下面。</p>
+<p>创建 SSH Key 的命令行如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">ssh-keygen -t rsa -C &quot;youremail@example.com&quot;</span><br></pre></td></tr></table></figure>
+<p><strong><font color="red">字母大小写、空格、横杆，必须和上面一致，否则会报错</font></strong></p>
+<h2 id="3-Hexo"><a href="#3-Hexo" class="headerlink" title="3.Hexo"></a>3.Hexo</h2><p>参考资料：<br><a href="https://hexo.io/zh-cn/" target="_blank" rel="noopener">Hexo主页</a><br><a href="https://blog.csdn.net/qq_26975307/article/details/62447489" target="_blank" rel="noopener">Hexo常用命令笔记</a><br><a href="https://www.cnblogs.com/fengxiongZz/p/7707219.html" target="_blank" rel="noopener">Hexo+Github最完整的配置教程</a></p>
+<p>配置、建站、部署详见以上参考材料的连接，以下说明可能会踩坑的地方。</p>
+<p>下载安装 <a href="https://nodejs.org/en/" target="_blank" rel="noopener">Node.js</a></p>
+<blockquote>
+<p>注意：选择稳定版本！不要设置自动更新！否则可能会出现电脑无限重启的情况</p>
+</blockquote>
+<p>安装完之后，用 <strong>Git Bash</strong> 打开窗口，使用 npm 安装 Hexo</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install -g hexo-cli</span><br></pre></td></tr></table></figure>
+<p>首次体验 Hexo 可能会报错，体验操作如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br></pre></td><td class="code"><pre><span class="line">hexo g //部署</span><br><span class="line">hexo s //预览</span><br></pre></td></tr></table></figure>
+<p>然后这里会提示：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">INFO  Hexo is running at http://0.0.0.0:4000/. Press Ctrl+C to stop.</span><br></pre></td></tr></table></figure>
+<p>用浏览器打开 <code>http://0.0.0.0:4000/</code> 可能会刷不出来！原因是：</p>
+<p><strong><font color="red">电脑端口被占用了–福昕阅读器</font></strong></p>
+<p>需要修改端口才能访问，命令如下：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo s -p 5000</span><br></pre></td></tr></table></figure>
+<p>用git方式部署</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo d //发布</span><br></pre></td></tr></table></figure>
+<p>注意一定要先在git上建立一个项目，项目名称必须是<code>yourcount.github.io</code>，否则在执行命令行时一定会报错。</p>
+<p>发布之前一定要预览，确认无误之后再发布。<font color="red"><strong>发布完成后无法再修改</strong></font>，只能删掉重新发布。</p>
+<p>部署之后，打开网页<code>https://yourcount.github.io/</code>即可查看。</p>
+<h1 id="二、撰写文章"><a href="#二、撰写文章" class="headerlink" title="二、撰写文章"></a>二、撰写文章</h1><p>可使用 Typora 编写 Markdown 文章</p>
+<h2 id="1-创建文章"><a href="#1-创建文章" class="headerlink" title="1.创建文章"></a>1.创建文章</h2><ol>
+<li>在站点文件夹中打开 <strong>Git Base</strong>，用指令新建 .md 文件</li>
+<li>在站点文件夹直接使用 <strong>Typora</strong> 新建 .md 文件</li>
+</ol>
+<p>站点路径：source/_post</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new &quot;title_name&quot;</span><br></pre></td></tr></table></figure>
+<h2 id="2-设置模板"><a href="#2-设置模板" class="headerlink" title="2.设置模板"></a>2.设置模板</h2><p>使用指令创建文章的好处，是可以设置模板。Hexo 会根据 <code>/scaffolds/post.md</code> 模板文件进行初始化。以下分别是 <strong>标题、时间、标签、分类</strong></p>
+<figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: &#123;&#123; title &#125;&#125;</span><br><span class="line">date: &#123;&#123; date &#125;&#125;</span><br><span class="line">tags: </span><br><span class="line">categories:</span><br></pre></td></tr></table></figure>
+<p>示例：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br></pre></td><td class="code"><pre><span class="line">title: Title</span><br><span class="line">date: YYYY-MM-DD HH:MM:SS</span><br><span class="line">tags: [tag1, tag2, ...]</span><br><span class="line">categories: category</span><br></pre></td></tr></table></figure>
+<p>注意：属性和属性之间需要有一个空格，否则会解析错误</p>
+<h2 id="3-Hexo-首页显示"><a href="#3-Hexo-首页显示" class="headerlink" title="3.Hexo 首页显示"></a>3.Hexo 首页显示</h2><p>在文章中使用<code>&lt;!--more--&gt;</code>标志，在 Hexo 框架博客的首页就只会显示文章标志前面的内容。</p>
+<h1 id="三、设置主题"><a href="#三、设置主题" class="headerlink" title="三、设置主题"></a>三、设置主题</h1><p>其中有些主题优化的好文：<br><a href="https://www.jianshu.com/p/3ff20be8574c" target="_blank" rel="noopener">Hexo-Next-主题优化 1</a><br><a href="https://www.jianshu.com/p/428244cd2caa" target="_blank" rel="noopener">Hexo-Next-主题优化 2</a><br><a href="https://www.jianshu.com/p/d23d67d318c7" target="_blank" rel="noopener">Hexo-Next-主题优化 3</a><br><a href="https://www.jianshu.com/p/4ef35521fee9" target="_blank" rel="noopener">Hexo-Next-主题优化 4</a></p>
+<h2 id="1-安装"><a href="#1-安装" class="headerlink" title="1.安装"></a>1.安装</h2><p>使用 <code>git clone</code> 的方法，在 Next 的 <a href="https://github.com/theme-next/hexo-theme-next/blob/master/docs/zh-CN/README.md" target="_blank" rel="noopener">安装说明</a> 中有其他安装方法</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">git clone https://github.com/iissnan/hexo-theme-next themes/next</span><br></pre></td></tr></table></figure>
+<h2 id="2-设置主题"><a href="#2-设置主题" class="headerlink" title="2.设置主题"></a>2.设置主题</h2><p>在 <strong>hexo根目录</strong> 下的配置文件config.yml里设置主题</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">theme: next</span><br></pre></td></tr></table></figure>
+<p>接下来配置主题内容，所有内容都在 <strong>themes/next</strong> 文件夹下的 config.yml 文件里修改。</p>
+<p>官方文档里写的是有些配置需要将一部分代码添加到配置文件中，但其实看配置文件就会发现，有很多功能都已经放在配置文件里了，只需要取消注释，把需要的相关信息补全即可使用。</p>
+<h2 id="3-创建标签目录"><a href="#3-创建标签目录" class="headerlink" title="3.创建标签目录"></a>3.创建标签目录</h2><p>hexo初始是没有标签目录的需要自己创建，不创建会404</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">hexo new page tags</span><br></pre></td></tr></table></figure>
+<p>创建完成后,打开 <code>you-site/source/tags</code> 的 <code>index.md</code> ,修改如下</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br></pre></td><td class="code"><pre><span class="line">---</span><br><span class="line">title:  #页面主题</span><br><span class="line">date: 2017-08-18 15:00:55 #当前创建文件时间</span><br><span class="line">type: &quot;tags&quot; # 设置页面类型</span><br><span class="line">---</span><br></pre></td></tr></table></figure>
+<h2 id="4-链接样式"><a href="#4-链接样式" class="headerlink" title="4.链接样式"></a>4.链接样式</h2><p>打开 <code>themes\next\source\css\_common\components\post\post.styl</code>下添加代码</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line">// 文章内链接文本样式</span><br><span class="line">.post-body p a&#123;</span><br><span class="line">  color: #0593d3;</span><br><span class="line">  border-bottom: none;</span><br><span class="line">  border-bottom: 1px solid #0593d3;</span><br><span class="line">  &amp;:hover &#123;</span><br><span class="line">    color: #fc6423;</span><br><span class="line">    border-bottom: none;</span><br><span class="line">    border-bottom: 1px solid #fc6423;</span><br><span class="line">  &#125;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
+<h2 id="5-“本文结束”标记"><a href="#5-“本文结束”标记" class="headerlink" title="5.“本文结束”标记"></a>5.“本文结束”标记</h2><p><a href="https://blog.csdn.net/Darry_R/article/details/80150805" target="_blank" rel="noopener">“本文结束”参考链接</a></p>
+<h1 id="四、第三方插件"><a href="#四、第三方插件" class="headerlink" title="四、第三方插件"></a>四、第三方插件</h1><h2 id="1-Hexo-admin"><a href="#1-Hexo-admin" class="headerlink" title="1.Hexo-admin"></a>1.Hexo-admin</h2><p>Hexo-admin插件允许我们直接在本地页面上修改文章内容。下载指令：</p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i hexo-admin --save</span><br></pre></td></tr></table></figure>
+<p>登录 <code>http://localhost:4000/admin</code> 即可看到我们所有的文章内容，并且在可视化界面中操作文章内容</p>
+<h2 id="2-本地搜索"><a href="#2-本地搜索" class="headerlink" title="2.本地搜索"></a>2.本地搜索</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm install hexo-generator-searchdb --save</span><br></pre></td></tr></table></figure>
+<h2 id="3-统计功能"><a href="#3-统计功能" class="headerlink" title="3.统计功能"></a>3.统计功能</h2><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">npm i --save hexo-wordcount</span><br></pre></td></tr></table></figure>
+<p>打开<code>themes/next</code>下的<code>_config.yml</code>，修改<code>post_wordcount</code></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br></pre></td><td class="code"><pre><span class="line"># Post wordcount display settings</span><br><span class="line"># Dependencies: https://github.com/willin/hexo-wordcount</span><br><span class="line">post_wordcount:</span><br><span class="line">  item_text: true</span><br><span class="line">  #字数统计</span><br><span class="line">  wordcount: true</span><br><span class="line">  #预览时间</span><br><span class="line">  min2read: true</span><br><span class="line">  #总字数,显示在页面底部</span><br><span class="line">  totalcount: false</span><br><span class="line">  separated_meta: true</span><br></pre></td></tr></table></figure>
+
       
     </div>
     
@@ -455,8 +530,17 @@
       
 
       
+        <ul class="sidebar-nav motion-element">
+          <li class="sidebar-nav-toc sidebar-nav-active" data-target="post-toc-wrap">
+            文章目录
+          </li>
+          <li class="sidebar-nav-overview" data-target="site-overview-wrap">
+            站点概览
+          </li>
+        </ul>
+      
 
-      <section class="site-overview-wrap sidebar-panel sidebar-panel-active">
+      <section class="site-overview-wrap sidebar-panel">
         <div class="site-overview">
           <div class="site-author motion-element" itemprop="author" itemscope="" itemtype="http://schema.org/Person">
             
@@ -498,6 +582,22 @@
         </div>
       </section>
 
+      
+      <!--noindex-->
+        <section class="post-toc-wrap motion-element sidebar-panel sidebar-panel-active">
+          <div class="post-toc">
+
+            
+              
+            
+
+            
+              <div class="post-toc-content"><ol class="nav"><li class="nav-item nav-level-1"><a class="nav-link" href="#一、软件下载-amp-安装"><span class="nav-number">1.</span> <span class="nav-text">一、软件下载&amp;安装</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-git配置"><span class="nav-number">1.1.</span> <span class="nav-text">1.git配置</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-环境变量"><span class="nav-number">1.2.</span> <span class="nav-text">2.环境变量</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Hexo"><span class="nav-number">1.3.</span> <span class="nav-text">3.Hexo</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#二、撰写文章"><span class="nav-number">2.</span> <span class="nav-text">二、撰写文章</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-创建文章"><span class="nav-number">2.1.</span> <span class="nav-text">1.创建文章</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-设置模板"><span class="nav-number">2.2.</span> <span class="nav-text">2.设置模板</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-Hexo-首页显示"><span class="nav-number">2.3.</span> <span class="nav-text">3.Hexo 首页显示</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#三、设置主题"><span class="nav-number">3.</span> <span class="nav-text">三、设置主题</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-安装"><span class="nav-number">3.1.</span> <span class="nav-text">1.安装</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-设置主题"><span class="nav-number">3.2.</span> <span class="nav-text">2.设置主题</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-创建标签目录"><span class="nav-number">3.3.</span> <span class="nav-text">3.创建标签目录</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#4-链接样式"><span class="nav-number">3.4.</span> <span class="nav-text">4.链接样式</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#5-“本文结束”标记"><span class="nav-number">3.5.</span> <span class="nav-text">5.“本文结束”标记</span></a></li></ol></li><li class="nav-item nav-level-1"><a class="nav-link" href="#四、第三方插件"><span class="nav-number">4.</span> <span class="nav-text">四、第三方插件</span></a><ol class="nav-child"><li class="nav-item nav-level-2"><a class="nav-link" href="#1-Hexo-admin"><span class="nav-number">4.1.</span> <span class="nav-text">1.Hexo-admin</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#2-本地搜索"><span class="nav-number">4.2.</span> <span class="nav-text">2.本地搜索</span></a></li><li class="nav-item nav-level-2"><a class="nav-link" href="#3-统计功能"><span class="nav-number">4.3.</span> <span class="nav-text">3.统计功能</span></a></li></ol></li></ol></div>
+            
+
+          </div>
+        </section>
+      <!--/noindex-->
       
 
       
